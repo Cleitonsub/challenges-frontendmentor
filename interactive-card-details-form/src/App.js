@@ -1,14 +1,13 @@
-import bg_main_desktop from './images/bg_main_desktop.png';
-import bg_main_mobile from './images/bg_main_mobile.png';
+import React from 'react';
+import ProjectRoutes from './routes';
+import ProjectProvider from './context/ProjectProvider';
+import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App_header">
-        <img src={ bg_main_desktop } alt="bg_main_desktop"/>
-        <img src={ bg_main_mobile } alt="bg_main_mobile"/>
-      </header>
-    </div>
+    <ProjectProvider>
+      <ProjectRoutes />
+    </ProjectProvider>
   );
 }
 
