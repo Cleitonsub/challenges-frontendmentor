@@ -15,8 +15,11 @@ export default function CreditCard() {
                 <FormCreditCard />
             </div>
             <div class="attribution">
-                Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor.</a>
-                Coded by <a href="#">Cleiton Ribeiro.</a>
+                Challenge by <a
+                    href="https://www.frontendmentor.io?ref=challenge"
+                    rel="noopener noreferrer"
+                    target="_blank">Frontend Mentor.</a>
+                Coded by <a href="https://www.linkedin.com/in/cleitonrmacedo/">Cleiton Ribeiro.</a>
             </div>
         </>
     )
